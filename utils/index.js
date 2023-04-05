@@ -9,5 +9,4 @@ const registerSchema = Joi.object().keys({
 
 
 
-
  module.exports = registerSchema
