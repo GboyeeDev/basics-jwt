@@ -19,7 +19,6 @@ const authenticationMiddleware = async (req, res, next) => {
         throw new UnauthenticatedError('Not Authorized')
     }
 
-
 }
 
 module.exports = authenticationMiddleware
